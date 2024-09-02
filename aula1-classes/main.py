@@ -1,0 +1,15 @@
+from pessoa import Pessoa
+# p1 = Pessoa('wagner',19)
+
+# p1.comer('maça')
+# p1.falar('POO')
+# p1.parar_comer()
+# p1.falar('POO')
+# p1.comer('maça')
+# p1.parar_falar()
+# p1.comer('maça')
+# print(p1.get_ano_nascimento())
+p1 = Pessoa.por_ano_nascimento('Wagner',2005)
+print(p1.nome)
+print(p1.idade)
+print(Pessoa.geraId())
